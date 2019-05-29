@@ -19,15 +19,16 @@
 
 #include <stdio.h>
 
+void menu();
+
+void converti_in_binario(int num);
+
+void converti_in_ottale(int num);
+
+void converti_in_esadecimale(int num);
+
 int main()
 {
-	void menu();
-
-	void converti_in_binario(int num);
-
-	void converti_in_ottale(int num);
-
-	void converti_in_esadecimale(int num);
 
 	int num,scelta=0;
 	
@@ -50,6 +51,10 @@ int main()
 	{
 		menu();
 		scanf("%d",&scelta);
+		if(scelta<1||scelta>3)
+		{
+			printf("\nERRORE!!! Scelta non valida!\n");
+		}
 	}
 	while(scelta<1||scelta>3);
 
