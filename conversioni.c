@@ -59,6 +59,7 @@ int main()
 	while(scelta<1||scelta>3);
 
 	printf("\n\t%d(10)=",num);
+	
 	switch(scelta)
 	{
 		case 1:
