@@ -22,7 +22,10 @@
 		  			  	Il programma utilizza 3 funzioni.
 		  			  	
 		 - Cartella "ipotenusa":
-		 	Programma "ipotenusa.c": Programma  che, mediante una funzione, calcola l'ipotenusa dei seguenti triangoli rettangoli.
+		 	 - Programma "ipotenusa.c": Programma  che, mediante una funzione, calcola l'ipotenusa dei seguenti triangoli rettangoli.
 							Triangolo 1)  Lato 1: 3;    Lato 2: 4;
 							Triangolo 2)  Lato 1: 5;    Lato 2: 12;
 							Triangolo 3)  Lato 1: 8;    Lato 2: 15;
+							
+		 - Programma "inverticifre.c": Programma che, mediante una funzione, inverte le cifre di un numero intero dato in input.
+		 				Viene considerata la possibilità che il numero sia negativo.
