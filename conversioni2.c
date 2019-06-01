@@ -92,37 +92,37 @@ void menu()
 void converti(int num, int base)
 {
 
-	int i,ca,c_b,c,eb=0;
+	int i,weight,bit,num_cifre,error=0;
 
 	switch(base)
 	{
 		case 2:
-			c=8;
-			ca=128;
+			num_cifre=8;
+			weight=128;
 			break;
 		case 8:
-			c=3;
-			ca=64;
+			num_cifre=3;
+			weight=64;
 			break;
 		case 16:
-			c=2;
-			ca=16;
+			num_cifre=2;
+			weight=16;
 			break;
 		default:
 			printf("\nERRORE!!! Base non valida! Possibili valori: 2, 8, 16!\n");
-			eb=1;
+			error=1;
 			break;
 	}
 
-	if(eb)
+	if(error)
 	{
 		return;
 	}
 
-	for (i=0;i<c;i++)
+	for (i=0;i<num_cifre;i++)
 	{
-	c_b=num/ca;
-	switch(c_b) {
+	bit=num/weight;
+	switch(bit) {
 		case 0:
 		case 1:
 		case 2:
@@ -133,7 +133,7 @@ void converti(int num, int base)
 		case 7:
 		case 8:
 		case 9:
-			printf("%d",c_b);
+			printf("%d",bit);
 			break;
 		case 10:
 			putchar('A');
@@ -157,7 +157,7 @@ void converti(int num, int base)
 			putchar('-');
 			break;
 	}
-		num-=c_b*ca;
-		ca/=base;
+		num-=bit*weight;
+		weight/=base;
 	}
 }

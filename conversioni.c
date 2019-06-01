@@ -95,38 +95,38 @@ void menu()
 
 void converti_in_binario(int num)
 {
-	int i,ca=128,c_b;
+	int i,weight=128,bit;
 
 	for (i=0;i<8;i++)
 	{
-		c_b=num/ca;
-		printf("%d",c_b);
-		num-=c_b*ca;
-		ca/=2;
+		bit=num/weight;
+		printf("%d",bit);
+		num-=bit*weight;
+		weight/=2;
 	}
 }
 
 void converti_in_ottale(int num)
 {
-	int i,ca=64,c_b;
+	int i,weight=64,bit;
 
 	for (i=0;i<3;i++)
 	{
-		c_b=num/ca;
-		printf("%d",c_b);
-		num-=c_b*ca;
-		ca/= 8;
+		bit=num/weight;
+		printf("%d",bit);
+		num-=bit*weight;
+		weight/= 8;
 	}
 }
 
 void converti_in_esadecimale(int num)
 {
-	int i,ca=16,c_b;
+	int i,weight=16,bit;
 	
 	for (i=0;i<2;i++)
 	{
-		c_b=num/ca;
-		switch(c_b)
+		bit=num/weight;
+		switch(bit)
 		{
 			case 0:
 			case 1:
@@ -138,7 +138,7 @@ void converti_in_esadecimale(int num)
 			case 7:
 			case 8:
 			case 9:
-				printf("%d",c_b);
+				printf("%d",bit);
 				break;
 				case 10:
 				putchar('A');
@@ -162,7 +162,7 @@ void converti_in_esadecimale(int num)
 				putchar('-');
 				break;
 		}
-		num-=c_b*ca;
-		ca/=16;
+		num-=bit*weight;
+		weight/=16;
 	}
 }
