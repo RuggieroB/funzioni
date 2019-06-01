@@ -31,7 +31,7 @@ def input_coordinate():
 	return (float(X),float(Y))
 
 def stampa_coordinate(p):
-	print('x:\t',p[0])
+	print('X:\t',p[0])
 	print('Y:\t',p[1])
 
 print("Punto 1:\t")
