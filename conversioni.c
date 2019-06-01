@@ -13,7 +13,7 @@
 		
 			 - Programma "conversioni.c": Programma che chiede all'utente un intero compreso tra 0 e 255 e gli permette di scegliere se voglia convertire tale numero in binario, in 								ottale o in esadecimale.
 			 					In base alla scelta effettuata stampa il numero originale e il suo equivalente nella base scelta.
-			 						Il programma utilizza 4 funzioni.
+			 						Il programma utilizza 5 funzioni.
 				 						
 */
 
@@ -26,6 +26,8 @@ void converti_in_binario(int num);
 void converti_in_ottale(int num);
 
 void converti_in_esadecimale(int num);
+
+void stampa_bit(int bit);
 
 int main()
 {
@@ -126,43 +128,47 @@ void converti_in_esadecimale(int num)
 	for (i=0;i<2;i++)
 	{
 		bit=num/weight;
-		switch(bit)
-		{
-			case 0:
-			case 1:
-			case 2:
-			case 3:
-			case 4:
-			case 5:
-			case 6:
-			case 7:
-			case 8:
-			case 9:
-				printf("%d",bit);
-				break;
-				case 10:
-				putchar('A');
-				break;
-			case 11:
-				putchar('B');
-				break;
-			case 12:
-				putchar('C');
-				break;
-			case 13:
-				putchar('D');
-				break;
-			case 14:
-				putchar('E');
-				break;
-			case 15:
-				putchar('F');
-				break;
-			default:
-				putchar('-');
-				break;
-		}
+		stampa_bit(bit);
 		num-=bit*weight;
 		weight/=16;
+	}
+}
+
+void stampa_bit(int bit)
+{
+	switch(bit) {
+		case 0:
+		case 1:
+		case 2:
+		case 3:
+		case 4:
+		case 5:
+		case 6:
+		case 7:
+		case 8:
+		case 9:
+			printf("%d",bit);
+			break;
+		case 10:
+			putchar('A');
+			break;
+		case 11:
+			putchar('B');
+			break;
+		case 12:
+			putchar('C');
+			break;
+		case 13:
+			putchar('D');
+			break;
+		case 14:
+			putchar('E');
+			break;
+		case 15:
+			putchar('F');
+			break;
+		default:
+			putchar('-');
+			break;
 	}
 }
