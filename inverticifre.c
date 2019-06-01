@@ -1,18 +1,18 @@
 /*
 
-# funzioni
+	# funzioni
 
-# Programmi di Laboratorio di Programmazione in Linguaggio "C" e "Python" ("PY"). Alunno: Bucchianico Enrico Ruggiero, 4^Finf
+	# Programmi di Laboratorio di Programmazione in Linguaggio "C" e Linguaggio "Python" ("PY"). Alunno: Bucchianico Enrico Ruggiero, 4^Finf
 
 
-	funzioni
+		funzioni
 
-	Programmi di Laboratorio di Programmazione in Linguaggio "C" e "Python" ("PY"). Alunno: Bucchianico Enrico Ruggiero, 4^Finf
-	
-	
-	
-		 - Programma "inverticifre.c": Programma in Linguaggio "C" che, mediante una funzione, inverte le cifre di un numero intero dato in input.
-		 				Viene considerata la possibilità che il numero sia negativo.
+		Programmi di Laboratorio di Programmazione in Linguaggio "C" e Linguaggio "Python" ("PY"). Alunno: Bucchianico Enrico Ruggiero, 4^Finf
+		
+		
+		
+			 - Programma "inverticifre.c": Programma in Linguaggio "C" che, mediante una funzione, inverte le cifre di un numero intero dato in input.
+			 				Viene considerata la possibilità che il numero sia negativo.
 		 						 				
 */
 

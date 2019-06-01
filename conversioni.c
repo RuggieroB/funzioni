@@ -1,19 +1,19 @@
 /*
 
-# funzioni
+	# funzioni
 
-# Programmi di Laboratorio di Programmazione in Linguaggio "C" e "Python" ("PY"). Alunno: Bucchianico Enrico Ruggiero, 4^Finf
+	# Programmi di Laboratorio di Programmazione in Linguaggio "C" e Linguaggio "Python" ("PY"). Alunno: Bucchianico Enrico Ruggiero, 4^Finf
 
 
-	funzioni
+		funzioni
 
-	Programmi di Laboratorio di Programmazione in Linguaggio "C" e "Python" ("PY"). Alunno: Bucchianico Enrico Ruggiero, 4^Finf
-	
-	
-	
-		 - Programma "conversioni.c": Programma in Linguaggio "C" che chiede all'utente un intero compreso tra 0 e 255 e gli permette di scegliere se voglia convertire tale numero in 							binario, in ottale o in esadecimale.
-		 					In base alla scelta effettuata stampa il numero originale e il suo equivalente nella base scelta.
-		 						Il programma utilizza 5 funzioni.
+		Programmi di Laboratorio di Programmazione in Linguaggio "C" e Linguaggio "Python" ("PY"). Alunno: Bucchianico Enrico Ruggiero, 4^Finf
+		
+		
+		
+			 - Programma "conversioni.c": Programma in Linguaggio "C" che chiede all'utente un intero compreso tra 0 e 255 e gli permette di scegliere se voglia convertire tale 								numero in binario, in ottale o in esadecimale.
+			 					In base alla scelta effettuata stampa il numero originale e il suo equivalente nella base scelta.
+			 						Il programma utilizza 5 funzioni.
 
 				 						
 */
