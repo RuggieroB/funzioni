@@ -29,3 +29,7 @@
 							
 		 - Programma "inverticifre.c": Programma che, mediante una funzione, inverte le cifre di un numero intero dato in input.
 		 				Viene considerata la possibilità che il numero sia negativo.
+		 				
+		  - Programma "crazyrandom.c": Programma che utilizza una funzione la quale estrae e restituisce un numero intero pari ad una cifra per le prime tre invocazioni e un numero 							dispari per le seguenti tre.
+
+
