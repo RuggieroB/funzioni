@@ -1,17 +1,17 @@
 /*
 
-# funzioni
+	# funzioni
 
-# Programmi di Laboratorio di Programmazione in Linguaggio "C". Alunno: Bucchianico Enrico Ruggiero, 4^Finf
+	# Programmi di Laboratorio di Programmazione in Linguaggio "C" e "Python" ("PY"). Alunno: Bucchianico Enrico Ruggiero, 4^Finf
 
 
-	funzioni
+		funzioni
 
-	Programmi di Laboratorio di Programmazione in Linguaggio "C". Alunno: Bucchianico Enrico Ruggiero, 4^Finf
-	
-	
-	
-		  - Programma "crazyrandom.c": Programma che utilizza una funzione la quale estrae e restituisce un numero intero pari ad una cifra per le prime tre invocazioni e un numero 							dispari per le seguenti tre.
+		Programmi di Laboratorio di Programmazione in Linguaggio "C" e "Python" ("PY"). Alunno: Bucchianico Enrico Ruggiero, 4^Finf
+		
+		
+		
+			- Programma "crazyrandom.c": Programma in Linguaggio "C" che utilizza una funzione la quale estrae e restituisce un numero intero pari ad una cifra per le prime tre 								invocazioni e un numero dispari per le seguenti tre.
 		  
 */
 

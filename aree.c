@@ -1,20 +1,20 @@
 /*
 
-	# funzioni
+# funzioni
 
-	# Programmi di Laboratorio di Programmazione in Linguaggio "C". Alunno: Bucchianico Enrico Ruggiero, 4^Finf
+# Programmi di Laboratorio di Programmazione in Linguaggio "C" e "Python" ("PY"). Alunno: Bucchianico Enrico Ruggiero, 4^Finf
 
 
-		funzioni
+	funzioni
 
-		Programmi di Laboratorio di Programmazione in Linguaggio "C". Alunno: Bucchianico Enrico Ruggiero, 4^Finf
-		
-		
-		
-			 - Programma "aree.c": Programma che chiede all'utente se voglia calcolare l'area di un quadrato o di un cerchio. 
-			  			  In base alla scelta effettuata chiede il valore del lato o del raggio e stampa i risultati.
-			  			  	Il programma utilizza 3 funzioni.
-			  			  	
+	Programmi di Laboratorio di Programmazione in Linguaggio "C" e "Python" ("PY"). Alunno: Bucchianico Enrico Ruggiero, 4^Finf
+	
+	
+	
+		 - Programma "aree.c": Programma  in Linguaggio "C" che chiede all'utente se voglia calcolare l'area di un quadrato o di un cerchio. 
+		  			  In base alla scelta effettuata chiede il valore del lato o del raggio e stampa i risultati.
+		  			  	Il programma utilizza 3 funzioni.
+
 */
 
 #include <stdio.h>
