@@ -9,7 +9,7 @@
 	
 	
 	
-		- Cartella "ipotenusa":
+		- Directory "ipotenusa":
 		 	 - Programma "ipotenusa.c": Programma in Linguaggio "C" che, mediante una funzione, calcola l'ipotenusa dei seguenti triangoli rettangoli.
 							Triangolo 1)  Lato 1: 3;    Lato 2: 4;
 							Triangolo 2)  Lato 1: 5;    Lato 2: 12;
