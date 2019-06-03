@@ -28,9 +28,7 @@ void genera_numeri(int num_c,int min,int max);
 
 int main()
 {
-	int num_c=5;
-
-	int min,max;
+	int num_c=5,min,max;
 
 	printf("RANDOM:\n");
 	printf("Modulo per la generazione di numeri pseudocasuali.\n\n\n\n");
