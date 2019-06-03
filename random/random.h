@@ -12,10 +12,10 @@
 		
 		
 			 - Directory "random": Linguaggio "C":
-			 		- Modulo "random.h"/"random.c": Contentente due funzioni:
-			 			- "void random_init()" per l'inizializzazione del modulo.
-			 			- "int random_between(int min,int max)" per la generazione di un numero pseudocasuale compreso tra min (incluso) e max (escluso).
-			 		- File "main.c" per la verifica del modulo (con funzioni per i compiti che si ripetono).
+		 		- Modulo "random" ("random.h"|"random.c"): Contentente due funzioni:
+		 			- "void random_init()" per l'inizializzazione del modulo.
+		 			- "int random_between(int min,int max)" per la generazione di un numero pseudocasuale compreso tra min (incluso) e max (escluso).
+		 		- File "main.c" per la verifica del modulo (con funzioni per i compiti che si ripetono).
 		 		
 */
 
