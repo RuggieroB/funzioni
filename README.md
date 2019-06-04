@@ -54,7 +54,7 @@
 		 			- "void random_init()" per l'inizializzazione del modulo.
 		 			- "int random_between(int min,int max)" per la generazione di un numero pseudocasuale compreso tra min (incluso) e max (escluso).
 		 		- Modulo "dado" ("dado.h"|"dado.c"): Simula il lancio di un dado a 6 facce per 100 volte e conta il numero di occorrenze di ogni faccia mediante un vettore.
-		 			Infine stampa il risultato ottenuto mediante righe di asterischi.
+		 							Infine stampa il risultato ottenuto mediante righe di asterischi.
 		 		- File "main.c" per la verifica dei moduli
 		 		
 		 - Directory "cai": Linguaggio "C":
@@ -71,3 +71,10 @@
 		 				- "int random_between(int min,int max)" per la generazione di un numero pseudocasuale compreso tra min (incluso) e max (escluso).
 		 			- Modulo "cai" ("cai.h"|"cai.c"): Gestisce le operazioni legate alla scelta dei numeri e alla gestione delle risposte.
 		 			- File "main.c" per la verifica dei moduli ed il calcolo delle risposte corrette tra 10 date.
+		 			
+		  - Directory "guess": Linguaggio "C":
+		  		- Modulo "random" ("random.h"|"random.c"): Contentente due funzioni:
+		 			- "void random_init()" per l'inizializzazione del modulo.
+		 			- "int random_between(int min,int max)" per la generazione di un numero pseudocasuale compreso tra min (incluso) e max (escluso).
+		 		- Modulo "guess" ("guess.h"|"guess.c"): Indovinare un numero compreso tra 1 e 1000.
+		 		- File "main.c" per la verifica dei moduli.
