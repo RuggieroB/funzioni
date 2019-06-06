@@ -20,11 +20,39 @@
 		 		
 */
 
-#ifndef RANDOM_H
-#define RANDOM_H
+#include <stdio.h>
 
-void random_init();
+#include "guess.h"
 
-int random_between(int min,int max);
+#include "random.h"
 
-#endif
+void guess_init()
+{
+	random_init();
+}
+
+int guess_num(int min,int max)
+{
+	return random_between(min,max+1);
+}
+
+int guess_control(int num,int guess)
+{
+	if(num==guess)
+	{
+		printf("\nExcellent! You guess the number!\n");
+	}
+	else if(num<guess)
+	{
+		printf("\nToo high. Try again.\n");
+	}
+	else
+	{
+		printf("\nToo low. Try again.\n");
+	}
+	
+	putchar('\n');
+
+	return guess-num;
+  
+}

@@ -20,11 +20,56 @@
 		 		
 */
 
-#ifndef RANDOM_H
-#define RANDOM_H
+#include <stdio.h>
 
-void random_init();
+#include "guess.h"
 
-int random_between(int min,int max);
+int main()
+{
+	int num,guess,min=1,max=1000,clear;
+	char retry='y';
+  
+	guess_init();
 
-#endif
+
+	do
+	{
+	
+		printf("\nI have a number between 1 and 1000.\n\tCan you guess my number?\n\n\t\t");
+		num=guess_num(min,max);
+		
+ 		do
+ 		{
+			printf("Your guess?\t");
+			scanf("%d",&guess);
+		}
+		while(guess_control(num,guess)!=0);
+		
+		do
+		{
+		
+		
+			while((clear=getchar())!='\n')
+			{
+				;
+			}
+
+			printf("\nWould you like to play again (y or n)?\t");
+			retry=getchar();
+			
+			if(retry=='n')
+			{
+				printf("\n\nBye! See you soon!\n");
+			} /* NO 'else' FOR THIS 'if'*/
+			
+		}
+		while(retry!='y'&&retry!='n');
+
+	}
+	while(retry=='y');
+	
+	putchar('\n');
+
+	return 0;
+	
+}

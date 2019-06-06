@@ -20,11 +20,13 @@
 		 		
 */
 
-#ifndef RANDOM_H
-#define RANDOM_H
+#ifndef GUESS_H
+#define GUESS_H
 
-void random_init();
+void guess_init();
 
-int random_between(int min,int max);
+int guess_num(int min,int max);
+
+int guess_control(int num,int guess);
 
 #endif
