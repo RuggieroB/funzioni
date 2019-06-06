@@ -57,20 +57,23 @@
 		 							Infine stampa il risultato ottenuto mediante righe di asterischi.
 		 		- File "main.c" per la verifica dei moduli
 		 		
-		 - Directory "cai": Linguaggio "C":
+		 - Directory "cai":
 		 		Fornisce aiuto ad uno studente di scuola elementare ad apprendere la moltiplicazione.
-		 		- Sottodirectory "v1":Versione N° 1:
+		 		- Sottodirectory "v1":Versione N° 1: Linguaggio "C":
 		 			- Modulo "random" ("random.h"|"random.c"): Contentente due funzioni:
 		 				- "void random_init()" per l'inizializzazione del modulo.
 		 				- "int random_between(int min,int max)" per la generazione di un numero pseudocasuale compreso tra min (incluso) e max (escluso).
 		 			- Modulo "cai" ("cai.h"|"cai.c"): Gestisce le operazioni legate alla scelta dei numeri e alla gestione delle risposte.
 		 			- File "main.c" per la verifica dei moduli.
-		 		- Sottodirectory "v2":Versione N° 2:
+		 		- Sottodirectory "v2":Versione N° 2: Linguaggio "C":
 		 			- Modulo "random" ("random.h"|"random.c"): Contentente due funzioni:
 		 				- "void random_init()" per l'inizializzazione del modulo.
 		 				- "int random_between(int min,int max)" per la generazione di un numero pseudocasuale compreso tra min (incluso) e max (escluso).
 		 			- Modulo "cai" ("cai.h"|"cai.c"): Gestisce le operazioni legate alla scelta dei numeri e alla gestione delle risposte.
 		 			- File "main.c" per la verifica dei moduli ed il calcolo delle risposte corrette tra 10 date.
+		 		- Sottodirectory "py":Versione N° 2: Linguaggio "Python" ("PY"):
+		 			- Modulo "cai.py": Gestisce le operazioni legate alla scelta dei numeri, generati in maniera pseudocasuale - compresi tra min (incluso) e max (escluso) - 								    e le risposte.
+		 			- File "main.py" per la verifica dei moduli ed il calcolo delle risposte corrette tra 10 date.
 		 			
 		  - Directory "guess": Linguaggio "C":
 		  		- Modulo "random" ("random.h"|"random.c"): Contentente due funzioni:

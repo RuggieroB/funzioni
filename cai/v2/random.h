@@ -11,9 +11,9 @@
 		
 		
 		
-			 - Directory "cai": Linguaggio "C":
+			 - Directory "cai":
 			 		Fornisce aiuto ad uno studente di scuola elementare ad apprendere la moltiplicazione.
-			 		- Sottodirectory "v2":Versione N° 2:
+			 		- Sottodirectory "v2":Versione N° 2: Linguaggio "C":
 			 			- Modulo "random" ("random.h"|"random.c"): Contentente due funzioni:
 			 				- "void random_init()" per l'inizializzazione del modulo.
 			 				- "int random_between(int min,int max)" per la generazione di un numero pseudocasuale compreso tra min (incluso) e max (escluso).
